@@ -1,0 +1,241 @@
+body, html {
+  height: 100%;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.card {
+  margin-bottom: 15px;
+}
+
+.btn {
+  transition: all 0.4s ease-in-out;
+}
+
+
+/* less than 768px */
+@media (max-width: 768px) {
+  #header {
+    text-align: center;
+  }
+  #social {
+    text-align: center;
+  }
+  #social hr, #who hr {
+    margin: 8% auto;
+  }
+  #who {
+    text-align: center;
+  }
+  #who img {
+    /*margin-top: 50%;*/
+    display: none;
+  }
+  #footer {
+    text-align: center;
+  }
+}
+
+.navbar {
+  background-color: rgba(21, 33, 33, 0.5);
+  border-bottom: 1px solid #dedede;
+}
+
+.navbar .navbar-nav .nav-link  {
+  color: #d1d1d1;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  color: #ffffff;
+}
+
+
+/* header */
+
+#header {
+  background: url(../img/stars-bg.jpg) center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+#header img.logo {
+  padding: 0 0 20px 0;
+  width: 80%;
+}
+
+#header .header-right {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#header .fas {
+  margin: 5% 0;
+}
+
+#header a .fas {
+  color: #fff;
+}
+
+#header a .fas:hover {
+  color: #ccc;
+}
+
+/* social */
+
+#social {
+  padding: 4.25rem 0;
+}
+
+#social .fab {
+  font-size: 1.5em;
+  color: #be2835;
+  border: 2px solid #be2825;
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
+  text-align: center;
+  padding: 30% 0;
+  margin-top: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+#social .fab:hover {
+  color: #fff;
+  background: #be2825;
+}
+
+/* who */
+
+#who {
+  padding: 5rem 0;
+  background-color: #f6f6f6;
+}
+
+#who .btn-who {
+  background-color: #be2835;
+  color: #fff;
+  width: 50%;
+}
+
+#who .btn-who:hover {
+  background-color: transparent;
+  border: 1px solid #be2835;
+  color: #be2835;
+}
+
+/* work */
+
+#work {
+  padding: 5rem 0;
+}
+
+#work .work-img {
+  position: relative;
+}
+
+#work .work-img .img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/eye.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+#work .work-img .img-overlay:hover {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* why */
+
+#why {
+  padding: 5rem 0;
+  background-color: #f6f6f6;
+}
+
+#why .far {
+  color: #be2835;
+  padding: 15px 0;
+}
+
+/* customers */
+
+#customers {
+  padding: 5rem 0;
+}
+
+#customers .carousel-indicators li {
+  background-color: #be2835;
+}
+
+#customers .carousel-inner {
+  margin-bottom: 30px;
+}
+#customers .carousel-indicators {
+  margin-bottom: -30px;
+}
+
+
+/* pricing */
+
+#pricing {
+  padding: 4.25rem 0;
+  background-color: #f6f6f6;
+}
+
+#pricing .card .card-header {
+  background-color: #6e6e6e;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+#pricing .card .card-header.standard {
+  background-color: #be2825;
+  font-size: 1.3em;
+  padding: 15px 0;
+}
+
+#pricing .card .card-header:hover {
+  background-color: #be2835;
+}
+
+#pricing .card {
+  margin-top 20px;
+}
+
+/* contact */
+
+#contact {
+  padding: 4.25rem 0;
+}
+
+
+/* footer */
+
+#footer {
+  padding: 2rem 0;
+  background-color: #464646;
+  color: white;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer .fas {
+  padding: 0 5px;
+}
