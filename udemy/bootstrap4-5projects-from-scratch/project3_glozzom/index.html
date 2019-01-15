@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous" />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"/>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Bootstrap theme</title>
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Glozzom</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- slider -->
+  <section id="showcase" class="d-none d-sm-block">
+    <div id="my-carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#my-carousel" data-slide-to="0"></li>
+        <li data-target="#my-carousel" data-slide-to="1"></li>
+        <li data-target="#my-carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption text-right mb-5">
+              <h1 class="display-3">Heading One</h1>
+              <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iure illo molestias harum laudantium soluta, magnam placeat quos at quod.</p>
+              <a href="#" class="btn btn-danger">Sign Up Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption mb-5">
+              <h1 class="display-3">Heading Two</h1>
+              <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iure illo molestias harum laudantium soluta, magnam placeat quos at quod.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption text-right mb-5">
+              <h1 class="display-3">Heading Three</h1>
+              <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iure illo molestias harum laudantium soluta, magnam placeat quos at quod.</p>
+              <a href="#" class="btn btn-danger">Learn Even More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#my-carousel" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#my-carousel" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- home icon section -->
+  <section id="home-icons" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-cog fa-3x mb-2"></i>
+          <h3>Turning Gears</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, atque?</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-cloud fa-3x mb-2"></i>
+          <h3>Sending Data</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, atque?</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-cart-plus fa-3x mb-2"></i>
+          <h3>Making Money</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, atque?</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- home heading -->
+  <section id="home-heading" class="p-5">
+    <div class="dark-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="pt-5">
+              <h1>Are you ready to get started?</h1>
+              <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus asperiores distinctio recusandae ut similique architecto non inventore molestias voluptates rem.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="info" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h3>Lorem Ipsum</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium similique, totam at quasi facilis suscipit ipsam accusantium quis error quam?</p>
+          <a href="about.html" class="btn btn-outline-danger btn-large">Learn More</a>
+        </div>
+        <div class="col-md-6">
+          <img src="img/laptop.png" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- video -->
+  <section id="video-play" class="p-5">
+    <div class="dark-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col p-5">
+            <a href="#" class="video" data-video="https://www.youtube.com/embed/HnwsG9a5riA"
+              data-toggle="modal" data-target="#video-modal">
+              <i class="fas fa-play fa-3x"></i>
+            </a>
+            <h1>See What We Do</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- video modal -->
+  <div id="video-modal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- photo gallery -->
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h1>Photo Gallery</h1>
+          <p>Check our photos</p>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-sm-4">
+          <a href="https://source.unsplash.com/random/560x560"
+            data-toggle="lightbox"
+            data-gallery="img-gallery"
+            data-height="560"
+            data-width="560">
+            <img src="https://source.unsplash.com/random/560x560?1" class="img-fluid" />
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://source.unsplash.com/random/560x560"
+            data-toggle="lightbox"
+            data-gallery="img-gallery"
+            data-height="560"
+            data-width="560">
+            <img src="https://source.unsplash.com/random/560x560?2" class="img-fluid" />
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://source.unsplash.com/random/560x560"
+            data-toggle="lightbox"
+            data-gallery="img-gallery"
+            data-height="560"
+            data-width="560">
+            <img src="https://source.unsplash.com/random/560x560?3" class="img-fluid" />
+          </a>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-sm-4">
+          <a href="https://source.unsplash.com/random/560x560"
+            data-toggle="lightbox"
+            data-gallery="img-gallery"
+            data-height="560"
+            data-width="560">
+            <img src="https://source.unsplash.com/random/560x560?4" class="img-fluid" />
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://source.unsplash.com/random/560x560"
+            data-toggle="lightbox"
+            data-gallery="img-gallery"
+            data-height="560"
+            data-width="560">
+            <img src="https://source.unsplash.com/random/560x560?5" class="img-fluid" />
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://source.unsplash.com/random/560x560"
+            data-toggle="lightbox"
+            data-gallery="img-gallery"
+            data-height="560"
+            data-width="560">
+            <img src="https://source.unsplash.com/random/560x560?6" class="img-fluid" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- newsletter -->
+  <section id="newsletter" class="text-center p-5 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Sign Up For Our Newsletter</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni nobis eius sit ipsa aliquid provident optio esse tempora. Maiores, quis?</p>
+          <form class="form-inline justify-content-center">
+            <input type="text" placeholder="Enter Name" class="form-control mb-2 mr-2" />
+            <input type="email" placeholder="Enter Email" class="form-control mb-2 mr-2" />
+            <button class="btn btn-primary mb-2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="main-footer" class="text-center pt-4 pb-3">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy; 2019</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+  <script>
+    $('.carousel').carousel({
+      interval: 6000,
+      pause: 'hover'
+    });
+
+    $(function() {
+      $('.video').click(function() {
+        var the_modal = $(this).data('target');
+        var video_src = $(this).attr('data-video');
+        var video_src_auto = video_src + '?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1';
+        $(the_modal + ' iframe').attr('src', video_src_auto);
+
+        $('#video-modal').on('hidden.bs.modal', function() {
+          $(the_modal + ' iframe').attr('src', video_src);
+        });
+      });
+    });
+
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+  </script>
+
+</body>
+</html>
